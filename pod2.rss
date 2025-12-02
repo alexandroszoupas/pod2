@@ -7,6 +7,16 @@
     <language>it-IT</language>
     <guid isPermaLink="false">agpzfnJqLXJldm1hcisLEgpBdXRoRW50aXR5GICAgPTcxYAJDAsSB1BvZGNhc3QYgICIgu2xywgMogEHbGlicmFyeQ</guid>
 
+
+    <itunes:subtitle>I programmi, e non solo, on demand di Radio Appalla</itunes:subtitle>
+    <itunes:author>Radio Appalla</itunes:author>
+    <itunes:summary>Contenuti on demand di Radio Appalla: mix, speciali, storie e ospiti.</itunes:summary>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2024/10/2024_10_23_ore23_ANDREA_RANGO-mp3-image.png"></itunes:image>
+    <itunes:category text="Music"></itunes:category>
+    <itunes:category text="Buon Compleanno Radio Appalla"></itunes:category
+
+
     <!-- ANDREA RANGO "Soundzrise" -->
     <item>
       <title>ANDREA RANGO "Soundzrise"</title>
