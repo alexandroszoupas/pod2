@@ -1,60 +1,261 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
-    xmlns:content="http://purl.org/rss/1.0/modules/content/"
-    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:atom="http://www.w3.org/2005/Atom"
-    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 
-<channel>
-    <title>Buon Compleanno Radio Appalla – Reloaded by Radio Appallatesttetsttetstststststs</title>
-    <atom:link href="https://reloaded.radioappalla.it/podcast-series/buon-compleanno-radio-appalla/feed/" rel="self" type="application/rss+xml"/>
+  <channel>
+    <title>Buon Compleanno Radio Appalla – Reloaded by Radio Appallalalalalalalalalalla</title>
+    <atom:link href="https://reloaded.radioappalla.it/podcast-series/buon-compleanno-radio-appalla/feed/"
+               rel="self" type="application/rss+xml"/>
     <link>https://reloaded.radioappalla.it</link>
     <description>I programmi, e non solo, on demand di Radio Appalla</description>
     <lastBuildDate>Sun, 27 Oct 2024 22:16:43 +0000</lastBuildDate>
     <language>it-IT</language>
-    <sy:updatePeriod>hourly</sy:updatePeriod>
-    <sy:updateFrequency>1</sy:updateFrequency>
-    <generator>https://wordpress.org/?v=6.8.3</generator>
 
-    <image>
-        <url>https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2022/11/cropped-favicon_ok-32x32.png</url>
-        <title>Buon Compleanno Radio Appalla – Reloaded by Radio Appalla</title>
-        <link>https://reloaded.radioappalla.it</link>
-        <width>32</width>
-        <height>32</height>
-    </image>
-    <category>Buon Compleanno Radio Appalla</category>
+    <!-- iTunes channel metadata -->
+    <itunes:author>Radio Appalla</itunes:author>
+    <itunes:summary>I programmi on demand di Radio Appalla: speciali di compleanno, mix, storie e ospiti.</itunes:summary>
+    <itunes:explicit>no</itunes:explicit>
     <itunes:type>serial</itunes:type>
+    <!-- Replace this image with a 1400–3000 px square cover art URL when available -->
+    <itunes:image href="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2024/10/2024_10_23_ore23_ANDREA_RANGO-mp3-image.png"/>
+    <itunes:category text="Music"/>
 
-    <!-- Example item after cleaning -->
+    <!-- Keep generic RSS image if you want; iTunes image is what importers read -->
+    <image>
+      <url>https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2022/11/cropped-favicon_ok-32x32.png</url>
+      <title>Buon Compleanno Radio Appalla – Reloaded by Radio Appalla</title>
+      <link>https://reloaded.radioappalla.it</link>
+      <width>32</width>
+      <height>32</height>
+    </image>
+
+    <category>Buon Compleanno Radio Appalla</category>
+
+    <!-- 1) ANDREA RANGO -->
     <item>
-        <title>ANDREA RANGO "Soundzrise"</title>
-        <link>https://reloaded.radioappalla.it/podcast-episode/andrea-rangosoundzrise/</link>
-        <comments>https://reloaded.radioappalla.it/podcast-episode/andrea-rangosoundzrise/#respond</comments>
-        <dc:creator><![CDATA[admin.reloaded]]></dc:creator>
-        <pubDate>Sun, 27 Oct 2024 22:00:37 +0000</pubDate>
-        <category><![CDATA[ambient techno]]></category>
-        <category><![CDATA[andrea rango]]></category>
-        <category><![CDATA[deep tech]]></category>
-        <category><![CDATA[electronica]]></category>
-        <category><![CDATA[nujazz]]></category>
-        <category><![CDATA[soundzrise]]></category>
-        <category><![CDATA[TECH HOUSE]]></category>
-        <!-- GUID changed to permalink -->
-        <guid isPermaLink="true">https://reloaded.radioappalla.it/podcast-episode/andrea-rangosoundzrise/</guid>
-
-        <!-- Description cleaned -->
-        <description><![CDATA[L'ultimo show in programma in questa giornata straordinaria! E l'ultima ora è a cura di Andrea Rango fondatore e dj di Soundzrise e di Radio Appalla. I saluti e i ringraziamenti a tutto lo staff, ai deejay e agli ascoltatori nelle sue parole.]]></description>
-        <content:encoded><![CDATA[<p>L'ultimo show in programma in questa giornata straordinaria!<br/>
-        E l'ultima ora è a cura di Andrea Rango fondatore e dj di Soundzrise e di Radio Appalla.<br/>
-        I saluti e i ringraziamenti a tutto lo staff, ai deejay e agli ascoltatori nelle sue parole.</p>]]></content:encoded>
-
-        <wfw:commentRss>https://reloaded.radioappalla.it/podcast-episode/andrea-rangosoundzrise/feed/</wfw:commentRss>
-        <slash:comments>0</slash:comments>
-
-        <enclosure url="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/reloaded/special/compleanno_2024/2024_10_23_ore23_ANDREA_RANGO.mp3" length="58425324" type="audio/mpeg"/>
-        <itunes:image href="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2024/10/2024_10_23_ore23_ANDREA_RANGO-mp3-image.png"/>
+      <title><![CDATA[ANDREA RANGO "Soundzrise"]]></title>
+      <link>https://reloaded.radioappalla.it/podcast-episode/andrea-rangosoundzrise/</link>
+      <dc:creator><![CDATA[admin.reloaded]]></dc:creator>
+      <pubDate>Sun, 27 Oct 2024 22:00:37 +0000</pubDate>
+      <category><![CDATA[ambient techno]]></category>
+      <category><![CDATA[andrea rango]]></category>
+      <category><![CDATA[deep tech]]></category>
+      <category><![CDATA[electronica]]></category>
+      <category><![CDATA[nujazz]]></category>
+      <category><![CDATA[soundzrise]]></category>
+      <category><![CDATA[TECH HOUSE]]></category>
+      <guid isPermaLink="true">https://reloaded.radioappalla.it/podcast-episode/andrea-rangosoundzrise/</guid>
+      <description><![CDATA[L'ultimo show in programma in questa giornata straordinaria! E l'ultima ora è a cura di Andrea Rango, fondatore e DJ di Soundzrise e di Radio Appalla.]]></description>
+      <content:encoded><![CDATA[<p>L'ultimo show in programma in questa giornata straordinaria!<br/>
+      E l'ultima ora è a cura di Andrea Rango fondatore e DJ di Soundzrise e di Radio Appalla.<br/>
+      I saluti e i ringraziamenti a tutto lo staff, ai deejay e agli ascoltatori nelle sue parole.</p>]]></content:encoded>
+      <enclosure url="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/reloaded/special/compleanno_2024/2024_10_23_ore23_ANDREA_RANGO.mp3" length="58425324" type="audio/mpeg"/>
+      <itunes:image href="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2024/10/2024_10_23_ore23_ANDREA_RANGO-mp3-image.png"/>
     </item>
+
+    <!-- 2) PAOLO BOLOGNESI -->
+    <item>
+      <title><![CDATA[PAOLO BOLOGNESI "To The Club"]]></title>
+      <link>https://reloaded.radioappalla.it/podcast-episode/paolo-bolognesito-the-club/</link>
+      <dc:creator><![CDATA[admin.reloaded]]></dc:creator>
+      <pubDate>Sun, 27 Oct 2024 21:00:38 +0000</pubDate>
+      <category><![CDATA[#festival]]></category>
+      <category><![CDATA[electronic music]]></category>
+      <category><![CDATA[TECH HOUSE]]></category>
+      <category><![CDATA[Techno]]></category>
+      <guid isPermaLink="true">https://reloaded.radioappalla.it/podcast-episode/paolo-bolognesito-the-club/</guid>
+      <description><![CDATA[Paolo Bolognesi presenta "To The Club".]]></description>
+      <content:encoded><![CDATA[<p>Paolo Bolognesi presenta "To The Club".</p>]]></content:encoded>
+      <enclosure url="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/reloaded/special/compleanno_2024/2024_10_23_ore22_PAOLO_BOLOGNESI.mp3" length="58102991" type="audio/mpeg"/>
+      <itunes:image href="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2024/10/2024_10_23_ore22_PAOLO_BOLOGNESI-mp3-image.png"/>
+    </item>
+
+    <!-- 3) ANDREA MAZZA -->
+    <item>
+      <title><![CDATA[ANDREA MAZZA "Global Frequencies, A Journey Through Time"]]></title>
+      <link>https://reloaded.radioappalla.it/podcast-episode/andrea-mazzaglobal-frequencies-a-journey-through-time/</link>
+      <dc:creator><![CDATA[admin.reloaded]]></dc:creator>
+      <pubDate>Sun, 27 Oct 2024 20:00:47 +0000</pubDate>
+      <category><![CDATA[#festival]]></category>
+      <category><![CDATA[trance]]></category>
+      <guid isPermaLink="true">https://reloaded.radioappalla.it/podcast-episode/andrea-mazzaglobal-frequencies-a-journey-through-time/</guid>
+      <description><![CDATA[Global Frequencies: l'evoluzione trance di Andrea Mazza con un viaggio attraverso il tempo nelle sonorità trance.]]></description>
+      <content:encoded><![CDATA[<p>Global Frequencies, l'evoluzione trance di Andrea Mazza con un viaggio attraverso il tempo nelle sonorità trance!</p>]]></content:encoded>
+      <enclosure url="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/reloaded/special/compleanno_2024/2024_10_23_ore21_Global_Frequencies_a_Journey_Throgh_Time_23.10.24_Andrea_Mazza.mp3" length="59102890" type="audio/mpeg"/>
+      <itunes:image href="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2024/10/2024_10_23_ore21_Global_Frequencies_a_Journey_Throgh_Time_23-10-24_Andrea_Mazza-mp3-image.png"/>
+    </item>
+
+    <!-- 4) ALBERTO REMONDINI -->
+    <item>
+      <title><![CDATA[ALBERTO REMONDINI "Dual Core"]]></title>
+      <link>https://reloaded.radioappalla.it/podcast-episode/alberto-remondinidual-core/</link>
+      <dc:creator><![CDATA[admin.reloaded]]></dc:creator>
+      <pubDate>Sun, 27 Oct 2024 18:00:07 +0000</pubDate>
+      <category><![CDATA[anni 2000]]></category>
+      <category><![CDATA[ANNI 90]]></category>
+      <category><![CDATA[dance]]></category>
+      <category><![CDATA[DANCE ANNI 90]]></category>
+      <category><![CDATA[storia della dance]]></category>
+      <guid isPermaLink="true">https://reloaded.radioappalla.it/podcast-episode/alberto-remondinidual-core/</guid>
+      <description><![CDATA[Alberto Remondini ci riporta indietro nel tempo con "Dual Core", la storia della dance.]]></description>
+      <content:encoded><![CDATA[<p>Alberto Remondini ci riporta indietro nel tempo con Dual Core, la storia della dance!</p>]]></content:encoded>
+      <enclosure url="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/reloaded/special/compleanno_2024/2024_10_23_ore19_DUAL_CORE_by_ALBERTO_REMONDINI.mp3" length="59593149" type="audio/mpeg"/>
+      <itunes:image href="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2024/10/2024_10_23_ore19_DUAL_CORE_by_ALBERTO_REMONDINI-mp3-image.png"/>
+    </item>
+
+    <!-- 5) ROBERTO MOLINARO -->
+    <item>
+      <title><![CDATA[ROBERTO MOLINARO "Real Trust"]]></title>
+      <link>https://reloaded.radioappalla.it/podcast-episode/roberto-molinaroreal-trust/</link>
+      <dc:creator><![CDATA[admin.reloaded]]></dc:creator>
+      <pubDate>Sun, 27 Oct 2024 17:00:27 +0000</pubDate>
+      <category><![CDATA[elettronica]]></category>
+      <category><![CDATA[musica elettronica]]></category>
+      <category><![CDATA[roberto molinaro]]></category>
+      <category><![CDATA[storia vera]]></category>
+      <guid isPermaLink="true">https://reloaded.radioappalla.it/podcast-episode/roberto-molinaroreal-trust/</guid>
+      <description><![CDATA["Real Trust", una storia vera a tempo di Roberto Molinaro.]]></description>
+      <content:encoded><![CDATA[<p>Real Trust, una storia vera a tempo di Roberto Molinaro.<br/>
+      Serve aggiungere altro?</p>]]></content:encoded>
+      <enclosure url="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/reloaded/special/compleanno_2024/2024_10_23_ore18_REAL_TRUST_by_ROBERTO_MOLINARO.mp3" length="53103788" type="audio/mpeg"/>
+      <itunes:image href="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2024/10/2024_10_23_ore18_REAL_TRUST_by_ROBERTO_MOLINARO-mp3-image.png"/>
+    </item>
+
+    <!-- 6) PROVENZANO DJ -->
+    <item>
+      <title><![CDATA[PROVENZANO DJ "Out Of Mind"]]></title>
+      <link>https://reloaded.radioappalla.it/podcast-episode/provenzano-dj-out-of-mind/</link>
+      <dc:creator><![CDATA[admin.reloaded]]></dc:creator>
+      <pubDate>Sun, 27 Oct 2024 16:00:14 +0000</pubDate>
+      <category><![CDATA[Cool music]]></category>
+      <category><![CDATA[dance]]></category>
+      <category><![CDATA[ITALO DANCE]]></category>
+      <category><![CDATA[Party]]></category>
+      <guid isPermaLink="true">https://reloaded.radioappalla.it/podcast-episode/provenzano-dj-out-of-mind/</guid>
+      <description><![CDATA[Amerigo Provenzano aka Provenzano DJ propone "Out Of Mind".]]></description>
+      <content:encoded><![CDATA[<p>In questa giornata speciale, Amerigo Provenzano aka Provenzano DJ ci fa rivivere ricordi con il suo Out Of Mind. Un viaggio nel passato che emoziona nel presente!</p>]]></content:encoded>
+      <enclosure url="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/reloaded/special/compleanno_2024/2024_10_23_ore17_PROVENZANO_DJ.mp3" length="58290507" type="audio/mpeg"/>
+      <itunes:image href="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2024/10/2024_10_23_ore17_PROVENZANO_DJ-mp3-image.png"/>
+    </item>
+
+    <!-- 7) PAKY FRANCAVILLA -->
+    <item>
+      <title><![CDATA[PAKY FRANCAVILLA "Paky's House"]]></title>
+      <link>https://reloaded.radioappalla.it/podcast-episode/paky-francavilla-pakys-house/</link>
+      <dc:creator><![CDATA[admin.reloaded]]></dc:creator>
+      <pubDate>Sun, 27 Oct 2024 15:00:46 +0000</pubDate>
+      <category><![CDATA[dance]]></category>
+      <category><![CDATA[guest]]></category>
+      <guid isPermaLink="true">https://reloaded.radioappalla.it/podcast-episode/paky-francavilla-pakys-house/</guid>
+      <description><![CDATA[I classici della dance rivisitati da Paky Francavilla, con ospiti speciali.]]></description>
+      <content:encoded><![CDATA[<p>I classici della dance rivisitati da Paky Francavilla.<br/>
+      In questa giornata speciale ospiti speciali: D'Amico &amp; Valax</p>]]></content:encoded>
+      <enclosure url="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/reloaded/special/compleanno_2024/2024_10_23_ore16_PAKYS_HOUSE_SPECIALE_RADIO_APPALLA.mp3" length="59183280" type="audio/mpeg"/>
+      <itunes:image href="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2024/10/2024_10_23_ore16_PAKYS_HOUSE_SPECIALE_RADIO_APPALLA-mp3-image.png"/>
+    </item>
+
+    <!-- 8) ELENA TANZ -->
+    <item>
+      <title><![CDATA[ELENA TANZ "Fast Trak Special Edition"]]></title>
+      <link>https://reloaded.radioappalla.it/podcast-episode/elena-tanz-fast-trak-special-edition/</link>
+      <dc:creator><![CDATA[admin.reloaded]]></dc:creator>
+      <pubDate>Sun, 27 Oct 2024 14:00:56 +0000</pubDate>
+      <category><![CDATA[dance]]></category>
+      <category><![CDATA[elena tanz]]></category>
+      <category><![CDATA[ITALO DANCE]]></category>
+      <category><![CDATA[radio show]]></category>
+      <guid isPermaLink="true">https://reloaded.radioappalla.it/podcast-episode/elena-tanz-fast-trak-special-edition/</guid>
+      <description><![CDATA[Il viaggio musicale di Elena Tanz in una versione speciale per il compleanno di Radio Appalla.]]></description>
+      <content:encoded><![CDATA[<p>Il viaggio musicale di Elena Tanz in questa versione speciale per il compleanno di Radio Appalla; pronti a partire?</p>]]></content:encoded>
+      <enclosure url="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/reloaded/special/compleanno_2024/2024_10_23_ore15_FAST_TRACK_by_ELENA%20TANZ.mp3" length="58305462" type="audio/mpeg"/>
+      <itunes:image href="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2024/10/2024_10_23_ore15_FAST_TRACK_by_ELENA-TANZ-mp3-image.png"/>
+    </item>
+
+    <!-- 9) VALE ESSE -->
+    <item>
+      <title><![CDATA[VALE ESSE "DanceXSse"]]></title>
+      <link>https://reloaded.radioappalla.it/podcast-episode/vale-esse-dancexsse/</link>
+      <dc:creator><![CDATA[admin.reloaded]]></dc:creator>
+      <pubDate>Sun, 27 Oct 2024 12:00:52 +0000</pubDate>
+      <category><![CDATA[dance]]></category>
+      <category><![CDATA[MashUp]]></category>
+      <guid isPermaLink="true">https://reloaded.radioappalla.it/podcast-episode/vale-esse-dancexsse/</guid>
+      <description><![CDATA[Puntata speciale di DanceXSse per il compleanno di Radio Appalla, con musica mixata e mashuppata da Vale Esse.]]></description>
+      <content:encoded><![CDATA[<p>La puntata speciale di DanceXSse per il compleanno di Radio Appalla con la musica mixata e mashuppata da Vale Esse</p>]]></content:encoded>
+      <enclosure url="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/reloaded/special/compleanno_2024/2024_10_23_ore13_DANCEXSSE_by_VALE_ESSE.mp3" length="58684196" type="audio/mpeg"/>
+      <itunes:image href="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2024/10/2024_10_23_ore13_DANCEXSSE_by_VALE_ESSE-mp3-image.png"/>
+    </item>
+
+    <!-- 10) RENÈE LA BULGARA -->
+    <item>
+      <title><![CDATA[RENÈE LA BULGARA "Appalla Special Mix"]]></title>
+      <link>https://reloaded.radioappalla.it/podcast-episode/renee-la-bulgaraappalla-special-mix/</link>
+      <dc:creator><![CDATA[admin.reloaded]]></dc:creator>
+      <pubDate>Sun, 27 Oct 2024 11:00:28 +0000</pubDate>
+      <category><![CDATA[dance]]></category>
+      <category><![CDATA[ITALO DANCE]]></category>
+      <category><![CDATA[Pop Dance]]></category>
+      <category><![CDATA[reggaeton]]></category>
+      <guid isPermaLink="true">https://reloaded.radioappalla.it/podcast-episode/renee-la-bulgaraappalla-special-mix/</guid>
+      <description><![CDATA[La simpatia e l'esplosività di Renèe La Bulgara in un mix di pura energia.]]></description>
+      <content:encoded><![CDATA[<p>La simpatia e l'esplosività di Renèe La Bulgara in un mix di pura energia!!!</p>]]></content:encoded>
+      <enclosure url="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/reloaded/special/compleanno_2024/2024_10_23_ore12_RENE_LA_BULGARA.mp3" length="58349273" type="audio/mpeg"/>
+      <itunes:image href="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2024/10/2024_10_23_ore12_RENE_LA_BULGARA-mp3-image.png"/>
+    </item>
+
+    <!-- 11) DJ OSSO -->
+    <item>
+      <title><![CDATA[DJ OSSO "Dual Core Happy Edition"]]></title>
+      <link>https://reloaded.radioappalla.it/podcast-episode/dj-osso-dual-core-happy-edition/</link>
+      <dc:creator><![CDATA[admin.reloaded]]></dc:creator>
+      <pubDate>Sun, 27 Oct 2024 10:00:50 +0000</pubDate>
+      <category><![CDATA[ANNI 90]]></category>
+      <category><![CDATA[dance]]></category>
+      <category><![CDATA[DANCE ANNI 90]]></category>
+      <category><![CDATA[Happy Music]]></category>
+      <category><![CDATA[Musica Italiana]]></category>
+      <category><![CDATA[Trash Music]]></category>
+      <guid isPermaLink="true">https://reloaded.radioappalla.it/podcast-episode/dj-osso-dual-core-happy-edition/</guid>
+      <description><![CDATA[Le mashup di DJ Osso per festeggiare il 2° compleanno di Radio Appalla.]]></description>
+      <content:encoded><![CDATA[<p>Le mashuppate di Dj Osso per festeggiare a modo suo il 2° compleanno di Radio Appalla!</p>]]></content:encoded>
+      <enclosure url="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/reloaded/special/compleanno_2024/2024_10_23_ore11_DJ_OSSO.mp3" length="59627228" type="audio/mpeg"/>
+      <itunes:image href="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2024/10/2024_10_23_ore11_DJ_OSSO-mp3-image.png"/>
+    </item>
+
+    <!-- 12) MANUELA DORIANI -->
+    <item>
+      <title><![CDATA[MANUELA DORIANI "La Storia di Radio Appalla"]]></title>
+      <link>https://reloaded.radioappalla.it/podcast-episode/manuela-doriani-la-storia-di-radio-appalla/</link>
+      <dc:creator><![CDATA[admin.reloaded]]></dc:creator>
+      <pubDate>Sun, 27 Oct 2024 08:00:16 +0000</pubDate>
+      <guid isPermaLink="true">https://reloaded.radioappalla.it/podcast-episode/manuela-doriani-la-storia-di-radio-appalla/</guid>
+      <description><![CDATA[Manuela Doriani racconta la nascita di Radio Appalla con ironia e sana follia... bevendo una birretta.]]></description>
+      <content:encoded><![CDATA[<p>Manuela Doriani ci racconta la storia della nascita di Radio Appalla con quel pizzico di ironia e sana follia … bevendo una birretta!</p>]]></content:encoded>
+      <enclosure url="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/reloaded/special/compleanno_2024/2024_10_23_ore09_RADIO_APPALLA_STORY_by_MANUELA_DORIANI.mp3" length="57572035" type="audio/mpeg"/>
+      <itunes:image href="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2024/10/2024_10_23_ore09_RADIO_APPALLA_STORY_by_MANUELA_DORIANI-mp3-image.png"/>
+    </item>
+
+    <!-- 13) FEDERICO RIESI -->
+    <item>
+      <title><![CDATA[FEDERICO RIESI "Cafèderico's"]]></title>
+      <link>https://reloaded.radioappalla.it/podcast-episode/federico-riesi-cafedericos/</link>
+      <dc:creator><![CDATA[admin.reloaded]]></dc:creator>
+      <pubDate>Sun, 27 Oct 2024 07:00:57 +0000</pubDate>
+      <category><![CDATA[anni 2000]]></category>
+      <category><![CDATA[ANNI 90]]></category>
+      <category><![CDATA[DANCE ANNI 90]]></category>
+      <category><![CDATA[Dance Music]]></category>
+      <category><![CDATA[EDM]]></category>
+      <category><![CDATA[podcast]]></category>
+      <category><![CDATA[Pop Dance]]></category>
+      <guid isPermaLink="true">https://reloaded.radioappalla.it/podcast-episode/federico-riesi-cafedericos/</guid>
+      <description><![CDATA[Federico Riesi introduce la giornata di festa presentando gli ospiti e le hit dance di oggi.]]></description>
+      <content:encoded><![CDATA[<p>Federico Riesi, la voce ufficiale di Radio Appalla insieme a Lady Janet, ci introduce a questa giornata di festa presentando gli ospiti e facendoci ascoltare le hit dance di oggi</p>]]></content:encoded>
+      <enclosure url="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/reloaded/special/compleanno_2024/2024_10_23_ore08_FEDERICO_RIESI.mp3" length="59653823" type="audio/mpeg"/>
+      <itunes:image href="https://reloaded.radioappalla.it/wordpress/wp-content/uploads/2024/10/2024_10_23_ore08_FEDERICO_RIESI-mp3-image.png"/>
+    </item>
+
+  </channel>
